@@ -1,0 +1,149 @@
+body{
+  background: radial-gradient(circle,rgba(255, 1, 1, 0.80),red);
+ 
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+.img img{
+    width: 10rem;
+    height: 6rem;
+}
+.nave{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #fff;
+    font-weight: 500;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+.contenedor{
+    display: flex;
+}
+.letra{
+    padding-top: 5rem;
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+.letra h1{
+    font-size: 7rem;
+    color: #fff;
+}
+.letra p{
+    padding-left: 6rem;
+    font-weight: 500;
+    color: #fff;
+}
+.btnn{
+    background-color: #fff;
+    padding: 2rem 4rem;
+    border: none;
+    border-radius: 50px;
+   
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .3s;
+}
+.btnn:hover{
+    background-color: rgb(223, 219, 219);
+    box-shadow: 0 2px 15px 0 black;
+    cursor: pointer;
+}
+.kfc{
+    width: 50%;
+}
+i{
+    color: #fff;
+    font-size: 1.50rem;
+    margin: 0 0.75rem;
+    
+}
+i:hover{
+    cursor: pointer;
+}
+.logito{
+    margin-left: 8rem;
+}
+@media (max-width: 700px) {
+
+    body{
+        width: 80vw;
+        max-height: 1500px;
+        overflow-x:hidden;
+    }
+    .nave{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 150%;
+       
+    }
+    .img img{
+        display: inline-block;
+        width: 100%;
+  
+    }
+    .link{
+        display: inline-block;
+        width: 100%;
+    }
+    .link a{
+        font-size: 14px;
+        margin: 0 3px;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+
+    .logito{
+      display: flex;
+      flex-direction: row;
+      width: 100vw;
+    }
+    .letra{
+     
+      width: 100vw;
+        height: 20rem;
+
+    }
+   
+    .letra h1{
+        font-size: 4rem;
+    
+    }
+    .letra p{
+        padding-left: 2rem;
+        font-weight: 500;
+       
+    }
+    .kfc img{
+    width: 30rem;
+    }
+    .btnn{
+        background-color: #fff;
+        padding: 2rem 4rem;
+        border: none;
+        border-radius: 50px;
+       
+        font-size: 1rem;
+        font-weight: 500;
+        transition: .3s;
+        margin-top: 2rem;
+    }
+    
+}
